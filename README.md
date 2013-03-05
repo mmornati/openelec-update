@@ -7,9 +7,9 @@ Installation Instruction
 ------------------------
 To use this script you should copy it on your raspberry OpenElec 
 
-----------------------------------------------------------------
+```bash
 scp update.sh root@openelec:
-----------------------------------------------------------------
+```
 
 The default root user for openelec distribution is 'openelec'.
 
@@ -17,7 +17,7 @@ Then you should to connect via ssh to your OpenElec and execute the script.
 It will automatically check if a new version is available, it shown to you the
 new version name and ask for a confirmation.
 
-----------------------------------------------------------------
+```bash
 root ~ # ./update.sh 
 Update required, will download latest version.
 Current Version: r13395
@@ -36,8 +36,7 @@ OpenELEC files succesfully moved to update directory
 Temporary files deleted
 System will restart shortly
 Enjoy!
-----------------------------------------------------------------
-
+```
 
 If you decide to install the new version, it will download the OpenElec tar.gz
 file, decompress it in the update folder of the openelec distribution and
